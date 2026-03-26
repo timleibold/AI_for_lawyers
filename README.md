@@ -1,6 +1,6 @@
 # KI für Juristen
 
-Dieses Repository enthält Materialien und Beispielanwendungen für die Blockveranstaltung „Künstliche Intelligenz für Juristen“ an der juristischen Fakultät der Julius-Mximilians-Universität Würzburg. Der Schwerpunkt liegt auf einer praxisnahen Einführung in Python, Impementation von Large Language Models in Code, Berechnung semantischer Ähnlichkeit von Textsequenzen, Retrieval-Augmented Generation (RAG) sowie der Entwicklung einfacher juristischer Anwendungen.
+Dieses Repository enthält Materialien und Beispielanwendungen für die Blockveranstaltung „KI für Juristen“ an der juristischen Fakultät der Julius-Maximilians-Universität Würzburg. Der Schwerpunkt liegt auf einer praxisnahen Einführung in Python, Impementation von Large Language Models in Code, Berechnung semantischer Ähnlichkeit von Textsequenzen, Retrieval-Augmented Generation (RAG) sowie der Entwicklung einfacher Legal-Tech-Anwendungen.
 
 ## Ziel des Repositories
 
