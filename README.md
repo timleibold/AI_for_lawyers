@@ -2,7 +2,7 @@
 
 Dieses Repository enthält Materialien und Beispielanwendungen für die Blockveranstaltung „KI für Juristen“ an der juristischen Fakultät der Julius-Maximilians-Universität Würzburg. Der Schwerpunkt liegt auf einer praxisnahen Einführung in Python, Impementation von Large Language Models in Code, Berechnung semantischer Ähnlichkeit von Textsequenzen, Retrieval-Augmented Generation (RAG) sowie der Entwicklung einfacher Legal-Tech-Anwendungen.
 
-## Ziel des Repositories
+## Inhalt des Repositories
 
 Das Repository dient als Arbeitsgrundlage für die Lehrveranstaltung und umfasst:
 
@@ -35,7 +35,7 @@ Alternativ kann das Repository lokal geklont und in einer IDE Ihrer Wahl (etwa V
 Empfohlen wird die Einrichtung einer virtuellen Umgebung über uv. Möglich ist dies, nachdem Sie [uv installiert](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_2]) haben, über den Befehl `uv sync`.
 
 
-## Aufbau des Repositories
+## Aufbau des Kurses
 
 ### 01_python_basics
 
