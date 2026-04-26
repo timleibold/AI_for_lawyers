@@ -14,6 +14,27 @@ Das Repository dient als Arbeitsgrundlage für die Lehrveranstaltung und umfasst
 
 Die Inhalte sind primär für Lehr- und Lernzwecke konzipiert.
 
+## Nutzung
+
+Der enthaltene Programmcode kann auf verschiedenen Wegen ausgeführt werden:
+
+## 1. Ausführung über Binder
+
+Eine niedrigschwellige Möglichkeit besteht darin, das Repository über Binder direkt im Browser zu öffnen. In diesem Fall ist keine lokale Installation einer Entwicklungsumgebung erforderlich.
+
+Die Umgebung wird durch Klick auf folgenden Link automatisch eingerichtet: 
+
+https://mybinder.org/v2/gh/timleibold/AI_for_lawyers.git/HEAD
+
+Nachdem Sie Binder gestartet, können Sie die jeweiligen Kursordner auswählen und die darin enthaltenen Notebooks, bzw. .py-Dateien mit einem Doppelklick öffnen und ausführen. Einzelne Zellen eines Notebooks können über die Tastenkombination Strg + Enter (Windows) oder ctrl + Enter (Mac) ausgeführt werden.
+
+## 2. Lokale Ausführung
+
+Alternativ kann das Repository lokal geklont und in einer IDE Ihrer Wahl (etwa VS Code, PyCharm oder JupyterLab) geöffnet werden. Nach Installation der erforderlichen Abhängigkeiten kann das Notebook lokal ausgeführt werden. 
+
+Empfohlen wird die Einrichtung einer virtuellen Umgebung über uv. Möglich ist dies, nachdem Sie [uv installiert](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_2]) haben, über den Befehl `uv sync`.
+
+
 ## Aufbau des Repositories
 
 ### 01_python_basics
@@ -74,6 +95,7 @@ Eine separate README in diesem Ordner enthält weiterführende Hinweise.
 ## Projektdateien
 
 - `pyproject.toml`: Projektdefinition und "dependencies"
+- `requirements.txt`: "dependencies" (für die Nutzung ohne uv)
 - `uv.lock`: Lock-Datei für reproduzierbare Installationen
 - `.python-version`: Python-Version
 - `.env`: Umgebungsvariablen (z. B. API-Schlüssel)
